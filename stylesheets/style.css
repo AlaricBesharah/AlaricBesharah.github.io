@@ -33,6 +33,7 @@ p{
 }
 
 #logo{
+    font-family: 'Roboto Mono', monospace;
     padding-bottom: 200px;
     font-size: 35px;
     font-weight: 800;
@@ -47,8 +48,7 @@ p{
 }
 
 h2{
-    margin-left:30px;
-    padding-top:30px;
+    display:inline;
     color: rgb(70,70,70);
 }
 
@@ -113,4 +113,12 @@ h3{
     cursor: pointer;
     color:crimson;
     transition: 0.3s ease;
+}
+
+.icon{
+    position:relative;
+    margin-left:30px;
+    top:16px;
+    left:10;
+    height:50px;
 }
