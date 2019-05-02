@@ -1,0 +1,116 @@
+body{
+    margin:0;
+    padding:0;
+/*    font-family: 'Titillium Web', sans-serif;*/
+    font-family: 'Roboto Mono', monospace;
+    background-color:rgb(176,176,176);
+}
+
+p{
+    color: rgb(100,100,100);
+    font-family: 'Titillium Web', sans-serif;
+}
+
+#title{
+    text-align: center;
+}
+
+#banner{
+    width:200px;
+    max-width: 1200px;
+    height:100%;
+    background-color:white;
+    position:fixed ;
+    text-align: center;
+    box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.25);
+}
+
+#page-wrap{
+/*    padding-left:250px;*/
+    float:right;
+    width:calc(100% - 200px);
+    background-color:whitesmoke;
+}
+
+#logo{
+    padding-bottom: 200px;
+    font-size: 35px;
+    font-weight: 800;
+    color:crimson;
+}
+
+#cart-icon{
+    float:right;
+    height:30px;
+    margin-top:30px;
+    margin-right:40px;
+}
+
+h2{
+    margin-left:30px;
+    padding-top:30px;
+    color: rgb(70,70,70);
+}
+
+h3{ 
+    margin-left:30px;
+    color:rgb();
+}
+
+.description{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.contentBox{
+    margin: auto;
+    padding-bottom: 30px;
+    border-bottom: solid;
+    border-width: 1px;
+    border-bottom-left-radius: 10px;
+    border-color: rgb(200,200,200);
+}
+
+.imageParent{
+    margin: auto;
+    text-align: center;
+    width:80%;
+}
+
+
+.imageParent img{
+    margin-left:20px;
+    margin-right:20px;
+/*    margin-bottom: 20px;*/
+    margin-top:10px;
+    height: 300px;
+}
+
+.box{
+    text-align: center;
+    width:220px;
+    height:300px;
+    display: inline-block;
+    margin-left:50px;
+    margin-top:10px;
+    background-color:whitesmoke;
+    border-radius: 10px;
+    border:2px solid #DDD;
+    transition: 0.3s ease;
+}
+
+.box:hover{
+    background-color: rgb();
+    box-shadow: 0px 0px 33px 0px rgba(0,0,0,0.20);
+}
+
+.menuItem {
+    font-size: 16px;
+    transition: 0.3s ease;
+}
+
+.menuItem:hover{
+    cursor: pointer;
+    color:crimson;
+    transition: 0.3s ease;
+}
