@@ -71,25 +71,26 @@
 
         <div class="alaricModal" onclick="expand(this)">  
             <img id="myImg" src="images/scheduleMonday.png" style="width:100%;max-width:300px">
-            
             <div class="modal">
-                <span onclick="this.parentNode.element.style.display = null;" class="close">&times;</span>
+                <span onclick="closeImage(this)" class="close">&times;</span>
                 <img class="modal-content" src="images/scheduleMonday.png">
             </div>
         </div>
 
         <script>
+            
             function expand(parent){
                 var modal = parent.children[1];
                 var img = parent.children[0];
                 var modalImg = modal.children[1];
                 modal.style.display = "block";
             }
-//            
-//            function closeImage(button){
-//                button.parentNode.style.display = "none";
-//                alert(button.parentNode.style.display);
-//            }
+            
+            function closeImage(button){
+                button.parentNode.style.display = "none";
+                alert(button.parentNode.style.display);
+            }
+            
         </script>
         
     </div>
