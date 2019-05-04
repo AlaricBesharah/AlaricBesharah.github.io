@@ -64,34 +64,17 @@
         
         <img src="images/camera.png" class="icon">
         <h2>Artwork</h2>
+        <h3>Hanabi Game Client</h3>
+            <p class="description">This project was done as a term project for Computer Science 370, Intermediate Software Engineering. I designed and implemented the user interface for the program, and was heavily involved in each step of the development of our software. This included writing requirements, designing the architecture, etc.</p>
         
-        <h2>Image Modal</h2>
-        <p>In this example, we use CSS to create a modal (dialog box) that is hidden by default.</p>
-        <p>We use JavaScript to trigger the modal and to display the current image inside the modal when it is clicked on. Also note that we use the value from the image's "alt" attribute as an image caption text inside the modal.</p>
+        <div class="thumbnailParent">
+        <a href="#img1">
+          <img src="images/lightboxTest.png" class="thumbnail">
+            </a></div>
 
-        <div class="alaricModal" onclick="expand(this)">  
-            <img id="myImg" src="images/scheduleMonday.png" style="width:100%;max-width:300px">
-            <div class="modal">
-                <span onclick="closeImage(this)" class="close">&times;</span>
-                <img class="modal-content" src="images/scheduleMonday.png">
-            </div>
-        </div>
-
-        <script>
-            
-            function expand(parent){
-                var modal = parent.children[1];
-                var img = parent.children[0];
-                var modalImg = modal.children[1];
-                modal.style.display = "block";
-            }
-            
-            function closeImage(button){
-                button.parentNode.style.display = "none";
-                alert(button.parentNode.style.display);
-            }
-            
-        </script>
+        <a href="#_" class="lightbox" id="img1">
+          <img src="images/lightboxTest.png">
+        </a>
         
     </div>
     
