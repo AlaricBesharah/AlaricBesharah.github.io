@@ -91,7 +91,7 @@ h3{
 
 .menuItem {
     font-family: 'Roboto Mono', monospace;
-    font-family: 'Roboto Mono', monospace;
+    font-size:1.5vh;
     transition: 0.3s ease;
 }
 
