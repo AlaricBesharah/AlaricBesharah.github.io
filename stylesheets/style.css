@@ -1,3 +1,6 @@
+html {
+	scroll-behavior:smooth;
+}
 
 body{
     margin:0;
@@ -5,6 +8,10 @@ body{
     font-family: 'Titillium Web', sans-serif;
     font-family: 'Roboto Mono', monospace;
     background-color:whitesmoke;
+}
+
+a{
+    text-decoration: none
 }
 
 p{
