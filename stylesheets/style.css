@@ -155,13 +155,33 @@ h3{
     width:100%;
 }
 
+.col div{
+    width:100%;
+    height:auto;
+}
+
 
 .col img {
     margin-top:-5px;
     width:100%;
 }
 
+.medium{
+/*    display: none;*/
+    color:white;
+    text-align: center;
+    font-size:15px;
+    z-index: 10;
+    width:100%;
+    top:-20px;
+    margin-top:-20px;
+    position:relative;
+    background-color: rgba(0,0,0,0.5);
+}
 
+.col div:hover{
+    
+}
 
 .col:nth-child(1){
     width:50%;
