@@ -218,3 +218,16 @@ h3{
     
 }
 
+@media only screen and (max-width: 350px) {
+    #logo{
+       font-size: 20px; 
+    }
+    
+    #banner{
+        height:100px;
+    }
+    
+    .menuItem{
+        font-size:14px;
+    }
+}
