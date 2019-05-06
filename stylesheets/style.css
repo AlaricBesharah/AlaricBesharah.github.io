@@ -98,7 +98,7 @@ h3{
 
 .menuItem {
     font-family: 'Roboto Mono', monospace;
-    font-size:1.5vh;
+    font-size:13pt;
     transition: 0.3s ease;
 }
 
@@ -186,8 +186,9 @@ h3{
     background-color: rgba(0,0,0,0.5);
 }
 
-.col div:hover{
-    
+.artContainer {
+  position: relative;
+  width: 50%;
 }
 
 .col:nth-child(1){
@@ -198,6 +199,23 @@ h3{
 .col:nth-child(2){
     width:50%;
     float: right;
+}
+
+.text{
+    display: none;
+    text-align: center;
+    color:whitesmoke;
+    font-family: 'Titillium Web', sans-serif;
+    background-color: rgba(0,0,0,0.4);
+    position: absolute;
+    bottom:0px;
+    width:100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.artContainer:hover .text{
+    display:block;
 }
 
 @media only screen and (max-width: 850px) {
@@ -238,9 +256,11 @@ h3{
         margin: auto;
         margin-left:-200px;
         margin-top:130px;
-/*        max-width: 1200px;*/
         width:100%;
-        background-color:whitesmoke;
+    } 
+    
+    .thumbnail {
+        filter: grayscale(0%);
     }   
     
 }
