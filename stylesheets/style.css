@@ -56,8 +56,14 @@ p{
 }
 
 h2{
+    position: relative;
     display:inline;
     color: rgb(70,70,70);
+}
+
+.anchor {
+    position:absolute;
+    top:-15px;
 }
 
 h3{ 
@@ -263,6 +269,11 @@ h3{
     .thumbnail {
         filter: grayscale(0%);
     }   
+    
+    .anchor{
+        position:absolute;
+        top:-150px;
+    }
     
 }
 
