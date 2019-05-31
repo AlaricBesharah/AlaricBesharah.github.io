@@ -155,7 +155,7 @@ h3{
 
 .lightbox img {
 	max-width: 90%;
-	max-height: 90%;
+	max-height: 85%;
 	margin-top: 12vh;
 }
 
@@ -250,7 +250,7 @@ h3{
     #logo{
         padding-bottom: 0px;
         margin-bottom: 20px;
-        margin-top: 3px;
+        margin-top: 13px;
     }
     
     .menuItem {
