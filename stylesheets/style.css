@@ -109,7 +109,7 @@ h3{
 #github{
     position: absolute;
     width:25%;
-    bottom:20px;
+    bottom:40px;
     left:50%;
     transform: translateX(-50%);
 }
