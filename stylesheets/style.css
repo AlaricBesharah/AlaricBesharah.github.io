@@ -24,7 +24,7 @@ p{
 #banner{
     width:200px;
     height:100%;
-    background-color:rgba(40,44,52,0.85) ;
+    background-color:rgba(40,44,52,1) ;
     position:fixed ;
     text-align: center;
 }
@@ -37,10 +37,18 @@ p{
 }
 
 #logo{
-    padding-bottom: 30vh;
-    font-size: 35px;
+    padding-bottom: 25vh;
+    font-size: 13pt;
     font-weight: 800;
     color:#eee;
+}
+
+#beauLogo{
+    width:80%;
+    margin-top:20px;
+    padding-bottom: 25vh;
+    opacity:1;
+    transition: opacity ease-in-out 0.2s;
 }
 
 h2{
@@ -103,7 +111,7 @@ h3{
     width:120px;
     transition: ease-out 0.4s;
     color:rgb(0, 204, 255);
-    background-color:rgba(255,255,255,0.05);
+    /* background-color:rgba(255,255,255,0.05); */
 }
 
 #github{
@@ -115,7 +123,7 @@ h3{
 }
 
 .menuItem:hover{
-    background-color:rgba(255,255,255,0.4);
+    /* background-color:rgba(255,255,255,0.4); */
     cursor: pointer;
     color:white;
     
@@ -254,15 +262,24 @@ h3{
     box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.25);
     }
     
+    #beauLogo{
+        all:reset;
+        position: absolute;
+        left:20px;
+        width:100px;
+    }
+
     #logo{
+        font-size:0px;
         padding-bottom: 0px;
         margin-bottom: 20px;
         margin-top: 13px;
     }
     
     .menuItem {
-        font-size: 16px; 
-        margin-top: 0px;
+        font-size: 16px;
+        margin:50px -20px 0 -20px; 
+        margin-top: 50px;
         display:inline-block;
     }
     
@@ -298,22 +315,37 @@ h3{
         all:unset;
         position: absolute;
         height:25%;
-        top:10px;
-        right:10px;
+        top:50%;
+        transform: translateY(-50%);
+        right:20px;
+    }
+
+    #beauLogo{
+        /* opacity:0; */
+        width:60px;
+        margin-top:30px;
     }
 }
+@media only screen and (max-width: 450px) {
+    #beauLogo{
+        margin:0;
+        left:20px;
+        top:10px;
+        width:50px;
+    }
 
-@media only screen and (max-width: 385px) {
-    #logo{
-       font-size: 20px; 
+    #github{
+        all:unset;
+        position: absolute;
+        height:25%;
+        top:10px;
+        right:20px;
     }
-    
-    #banner{
-        height:100px;
-    }
-    
     .menuItem{
+        margin:85px 0 0 0; 
         font-size:5vw;
         width:30%;
     }
 }
+
+
