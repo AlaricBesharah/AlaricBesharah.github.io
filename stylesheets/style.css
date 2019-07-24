@@ -6,7 +6,7 @@ body{
     margin:0;
     padding:0;
     font-family: 'Ubuntu', sans-serif;
-    background-color:rgb(33,37,43);
+    background-color:#21252b;
 }
 
 a{
@@ -24,7 +24,7 @@ p{
 #banner{
     width:200px;
     height:100%;
-    background-color:rgba(40,44,52,1) ;
+    background-color:#282c34 ;
     position:fixed ;
     text-align: center;
 }
